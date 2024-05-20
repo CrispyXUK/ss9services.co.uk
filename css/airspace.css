@@ -40,11 +40,7 @@ p {
   font-size: 15px;
   line-height: 28px;
 }
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+
 a,
 a:active,
 a:focus,
@@ -192,6 +188,7 @@ font header .navbar-default .navbar-nav li a:hover {
   font-size: 14px;
   line-height: 1.8;
 }
+
 /*--
 	call-to-action Start
 --*/
@@ -811,4 +808,8 @@ footer .footer-manu ul li a {
 }
 footer .footer-manu ul li a:hover {
   color: #24d8ae;
+}
+li {
+  list-style-type: disc;
+  list-style-position: inside;
 }
