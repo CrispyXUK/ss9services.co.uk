@@ -9,6 +9,9 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);
 @import url(//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
 @import url(//fonts.googleapis.com/css?family=Volkhov:400italic);
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 /* var text-decoration */
 /*--
 	Common Css
@@ -65,7 +68,7 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: #303244;
   padding: 20px 0;
 }
 header .navbar {
@@ -83,12 +86,16 @@ header .navbar-default .navbar-nav {
   padding-top: 10px;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #ffffff;
   padding: 10px 26px;
   font-size: 15px;
 }
 font header .navbar-default .navbar-nav li a:hover {
-  color: #000;
+  color: #24d8ae;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: #24d8ae;
+
 }
 /*---------------------------------------------
 					Index Start
@@ -97,11 +104,11 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/wallhaven-47lkyy.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
-  padding: 200px 0 280px 0;
+  padding: 60px 0;
   position: relative;
 }
 #slider:before {
@@ -803,5 +810,5 @@ footer .footer-manu ul li a {
   color: #494949;
 }
 footer .footer-manu ul li a:hover {
-  color: #000;
+  color: #24d8ae;
 }
