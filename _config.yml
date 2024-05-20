@@ -16,7 +16,7 @@ title: SS9 Services
 subtitle: "IT Services for Home & Business"
 url: "http://ss9services.co.uk" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/airspace-jekyll"
+baseurl: ""
 cover: "/assets/cover.png"
 logo: "img/ss9-logo-text.png"
 
