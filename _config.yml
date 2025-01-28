@@ -14,10 +14,10 @@ keep_files:
 # Site settings
 title: SS9 Services
 subtitle: "IT Services for Home & Business"
-url: "http://ss9services.co.uk" # the base hostname & protocol for your site
+url: "https://ss9services.co.uk" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
-cover: "/assets/cover.png"
+cover: "img/wallhaven-47lkyy.jpg"
 logo: "img/ss9-logo-text.png"
 
 # Build settings
